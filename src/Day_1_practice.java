@@ -70,8 +70,5 @@ public class Day_1_practice {
 //        }
 //        System.out.println("maximum value is" + biggest);
     }
-
-
-
-    }
+}
 
