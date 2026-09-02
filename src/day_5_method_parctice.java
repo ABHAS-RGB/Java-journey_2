@@ -60,18 +60,51 @@ public class day_5_method_parctice {
      */
     // question 6
     // fibonachi series
-    static int fibonachi2(int n) {
-        if (n==1){
-            return 0;
-        }
-        else if (n==2) {
-            return 1;
-        } else {
-            return fibonachi2(n-1) +fibonachi2(n-2);
-        }
+//    static int fibonachi2(int n) {
+//        if (n==1){
+//            return 0;
+//        }
+//        else if (n==2) {
+//            return 1;
+//        } else {
+//            return fibonachi2(n-1) +fibonachi2(n-2);
+//        }
+//
+//
+//    }
+/*
+question 7
+find the averqage of set of number using agruments
+ */
+
+//static int av( int ... arr){
+//    int res = 0;
+//    for (int a: arr){
+//        res += a;
+//    }
+//
+//}
+//static float av(int ... arr){
+//    float result =0;
+//    for (float a:arr){
+//        result = result+a;
+//    }
+//    return = (result/arr.length);
+//}
+//static int avg(int ...arr){
+//    int result=0;
+//    for(int element:arr){
+//        result = result+element;
+//    }
+//    return (result/arr.length);
+//}
+//
+//    public static void main(String[] args) {
+//        System.out.println(" the numbers are " + avg(22,66,77,888,20,96,30));
+//    }
 
 
-    }
+
 
 
 }
