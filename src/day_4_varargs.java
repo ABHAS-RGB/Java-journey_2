@@ -12,6 +12,6 @@ public class day_4_varargs {
     }
     public static void main(String[] args) {
         System.out.println("the ssum of 4, 5  " + sum(4,5) );
-        System.out.println("the sum of 4 ,4,44,55,5,7,88" + sum());
+        System.out.println("the sum of 4 ,4,44,55,5,7,88" + sum(4,5));
     }
 }
